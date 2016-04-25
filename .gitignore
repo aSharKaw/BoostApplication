@@ -26,3 +26,15 @@
 *.exe
 *.out
 *.app
+BoostApplication.sdf
+BoostApplication.sln
+BoostApplication/BoostApplication.vcxproj
+BoostApplication/BoostApplication.vcxproj.filters
+BoostApplication/x64/Debug/BoostApplication.tlog/BoostApplication.lastbuildstate
+BoostApplication/x64/Debug/BoostApplication.tlog/CL.command.1.tlog
+BoostApplication/x64/Debug/BoostApplication.tlog/CL.read.1.tlog
+BoostApplication/x64/Debug/BoostApplication.tlog/CL.write.1.tlog
+BoostApplication/x64/Debug/BoostApplication.tlog/link.command.1.tlog
+BoostApplication/x64/Debug/BoostApplication.tlog/link.read.1.tlog
+BoostApplication/x64/Debug/BoostApplication.tlog/link.write.1.tlog
+BoostApplication/x64/Debug/vc140.idb
