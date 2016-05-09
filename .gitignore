@@ -38,3 +38,7 @@ BoostApplication/x64/Debug/BoostApplication.tlog/link.command.1.tlog
 BoostApplication/x64/Debug/BoostApplication.tlog/link.read.1.tlog
 BoostApplication/x64/Debug/BoostApplication.tlog/link.write.1.tlog
 BoostApplication/x64/Debug/vc140.idb
+BoostApplication/html/
+BoostApplication/include/Eigen/
+BoostApplication/include/
+BoostApplication/Windows/
