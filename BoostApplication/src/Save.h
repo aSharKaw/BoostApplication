@@ -19,7 +19,7 @@ public:
 	Save();
 	
 	void SaveManager(string, int);
-
+	void Saving(string, string, int);
 
 private:
 	string saveData1, saveData2, saveData3;

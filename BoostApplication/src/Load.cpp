@@ -23,7 +23,7 @@ string Load::getName()
 
 	if (boost::optional<string> value = pt.get_optional<string>("Data.Name"))
 	{
-		cout << "Name : " << value.get() << endl;
+		//cout << "Name : " << value.get() << endl;
 		//name = value.get();
 		return value.get();
 	}
@@ -40,7 +40,7 @@ int Load::getLevel()
 
 	if (boost::optional<int> value = pt.get_optional<int>("Data.Level"))
 	{
-		cout << "Level : " << value.get() << endl;
+		//cout << "Level : " << value.get() << endl;
 		//level = value.get();
 		return value.get();
 	}

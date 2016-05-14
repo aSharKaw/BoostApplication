@@ -41,11 +41,12 @@ void Save::SaveManager(string name, int level)
 }
 
 
-void Saving(string saveFile_name, /*int saveFile_number,*/ string player_name, int level)
+void Save::Saving(string saveFile_name, /*int saveFile_number,*/ string player_name, int level)
 {
 	namespace propertyTree = boost::property_tree;
 
 	propertyTree::ptree pt;
+
 
 	//string _saveFile_number = "Data" + saveFile_number;
 

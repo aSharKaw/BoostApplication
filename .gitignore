@@ -42,3 +42,10 @@ BoostApplication/html/
 BoostApplication/include/Eigen/
 BoostApplication/include/
 BoostApplication/Windows/
+BoostApplication/x64/Debug/vc140.pdb
+x64/Debug/BoostApplication.ilk
+x64/Debug/BoostApplication.pdb
+BoostApplication/x64/Debug/BoostApplication.log
+BoostApplication/BoostApplication.vcxproj.user
+.vs/BoostApplication/v14/.suo
+BoostApplication.VC.db
