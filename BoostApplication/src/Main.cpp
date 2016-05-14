@@ -1,8 +1,11 @@
 #include <iostream>
+#include <conio.h>
+#include <stdio.h>
 //#include <boost/date_time/gregorian/gregorian.hpp>
 //#include <boost/assert.hpp>
 #include "Save.h"
 #include "Load.h"
+#include "Game.h"
 
 using namespace std;
 //using namespace boost;
@@ -10,19 +13,26 @@ using namespace std;
 
 void main(int args, char* argv[])
 {
-	Save save;
-	Load load;
+	//Save save;
+	//Load load;
+	Game game;
 
 	string player;
 	int level = 0;
 
+	string mode;
+
+	int input_key;
+
 	while (1)
 	{
-
-		string mode;
-
-
-		cin >> mode;
+		if (_kbhit()) input_key = _getch();
+		cout << input_key << endl;
+		
+		//game.Title();
+		
+		//game.Buttle();
+	/*	cin >> mode;
 		if (mode == "name")
 		{
 			cin >> player;
@@ -42,8 +52,10 @@ void main(int args, char* argv[])
 			save.SaveManager(player, level);
 		}
 
+		std::system("cls");
+
 		cout << player << endl;
-		cout << level << endl;
+		cout << level << endl;*/
 
 	}
 
